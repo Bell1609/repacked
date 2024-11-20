@@ -22,14 +22,38 @@ class Graph_Drawing():
             return f'{round(num / 1000000, 1):,} M'
         return f'{num / 1000:,.0f} K'
     
-    def __init__(self, theme_colors):
-        """
-        Initialize the Graph_drawing class with theme colors.
+    def __init__(self, theme_colors=None):
+            """
+            Initialize the Graph_drawing class with theme colors.
 
-        Parameters:
-        - theme_colors (dict): Dictionary of theme colors with keys like PRIMARY_COLORS, SUPPORTING_COLORS, etc.
+            Parameters:
+            - theme_colors (dict, optional): Dictionary of theme colors with keys like PRIMARY_COLORS, SUPPORTING_COLORS, etc.
+            """
+            if theme_colors is None:
+                # Nếu không cung cấp theme_colors, sử dụng giá trị mặc định
+                theme_colors = {
+                    "PRIMARY_COLORS": ["#FF5733", "#33FF57", "#3357FF"],
+                    "SUPPORTING_COLORS": ["#FF5733", "#C70039", "#900C3F"]
+                }
+            
+            # Gán theme_colors cho thuộc tính của lớp
+            self.theme_colors = theme_colors
+
+    def display_colors(self):
         """
-        self.theme_colors = theme_colors  # Store theme colors as an instance attribute    
+        Display the stored theme colors.
+        """
+        print("Theme Colors:")
+        for color_type, colors in self.theme_colors.items():
+            print(f"{color_type}: {', '.join(colors)}")
+
+    # Ví dụ sử dụng lớp Graph_Drawing:
+
+    # Trường hợp 1: Cung cấp theme_colors
+    theme_colors = {
+        "PRIMARY_COLORS": ["#FF5733", "#33FF57", "#3357FF"],
+        "SUPPORTING_COLORS": ["#FF5733", "#C70039", "#900C3F"]
+    }
         
     @st.cache_data(show_spinner=False)
     def rfm_component_graph(_self, df_rfm, rfm_component, color):
