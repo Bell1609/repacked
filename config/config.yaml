@@ -1,0 +1,58 @@
+allowed_domains:
+- example.com
+authorized_emails:
+- duong.nguyen@trginternational.com
+- quan.phan@trginternational.com
+- rick.yvanovich@trginternational.com
+- andrew@trginternational.com
+- kiran.grover@trginternational.com
+- viktor.nagradic@trginternational.com
+- hien.nguyen@trginternational.com
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    jsmith:
+      email: jsmith@gmail.com
+      failed_login_attempts: 0
+      first_name: John
+      last_name: Smith
+      logged_in: false
+      password: $2b$12$o8NYz3J6MsMCvEbOmtEXKOuYm2IUR0r4Myo.sgTgEx705376vduX.
+      roles:
+      - admin
+      - editor
+      - viewer
+    qphan:
+      email: quan.phan@trginternational.com
+      name: qphan
+      password: $2b$12$8bJj2FiR1PUt0BqtTXeEUOZY3ZLwe9WUUWTctQpt53FNWMiHXSSoG
+      verified: true
+    rbriggs:
+      email: rbriggs@gmail.com
+      failed_login_attempts: 0
+      first_name: Rebecca
+      last_name: Briggs
+      logged_in: false
+      password: $2b$12$K9AOOPRHcSIXAUG3Iu7gc.AXClkDj2LwRHKR.4/GRdNekh.CYkalG
+      roles:
+      - viewer
+    test:
+      activation_code: zI4SV9
+      code_expiry: '2024-10-28T18:18:51.009753'
+      email: trghelp@trginternational.com
+      name: test
+      password: $2b$12$ZEixAWuBTyVUG3OGlCrLHeJVpikc2CivvzwFjdiFU5ULGnHE48u2K
+      verified: false
+oauth2:
+  google:
+    client_id: null
+    client_secret: null
+    redirect_uri: null
+  microsoft:
+    client_id: null
+    client_secret: null
+    redirect_uri: null
+    tenant_id: null

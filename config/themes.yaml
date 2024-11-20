@@ -1,0 +1,59 @@
+Purple & Blue:
+  PRIMARY_COLORS:
+    - '#8A4BCC'    # Refined Pastel Purple
+    - '#5A9BFF'    # Soft Blue
+  SUPPORTING_COLORS:
+    - '#22B2D8'    # Aqua
+    - '#2ED1D7'    # Teal Cyan
+    - '#58CAF0'    # Light Sky Blue
+  POSITIVE_COLOR: '#32CD32'    # Softened Lime Green
+  NEGATIVE_COLOR: '#E57373'    # Muted Red
+  NEUTRAL_COLOR: '#ECEFF4'     # Light Gray for background
+
+Aquamarine Blue:
+  PRIMARY_COLORS:
+    - '#6BAED6'    # Softened Aquamarine
+    - '#5A9BFF'    # Soft Blue
+  SUPPORTING_COLORS:
+    - '#50BEDD'    # Light Blue Cyan
+    - '#7BD2E8'    # Teal Light Blue
+    - '#5BC3F0'    # Sky Blue
+  POSITIVE_COLOR: '#64C4A2'    # Muted Mint Green
+  NEGATIVE_COLOR: '#F28B82'    # Soft Coral Pink
+  NEUTRAL_COLOR: '#E5F3F8'     # Light Clean Background
+
+Universal Shades Of Blue:
+  PRIMARY_COLORS:
+    - '#637DAB'    # Light Navy Blue
+    - '#83A5D8'    # Soft Steel Blue
+  SUPPORTING_COLORS:
+    - '#73B3E7'    # Pastel Sky Blue
+    - '#8A79E8'    # Light Pastel Purple
+    - '#F28A8A'    # Muted Coral Red
+  POSITIVE_COLOR: '#5CAFB1'    # Soft Teal
+  NEGATIVE_COLOR: '#FF867F'    # Soft Salmon
+  NEUTRAL_COLOR: '#EBEEF1'     # Light Gray Background
+
+Pleasant Trio of Contrasting Hues:
+  PRIMARY_COLORS:
+    - '#C38DFF'    # Soft Purple
+    - '#58E6B8'    # Soft Green Teal
+  SUPPORTING_COLORS:
+    - '#72DAFF'    # Light Sky Blue
+    - '#FFB5C5'    # Light Coral Pink
+    - '#D8A9FF'    # Soft Lavender
+  POSITIVE_COLOR: '#50E3A4'    # Soft Mint
+  NEGATIVE_COLOR: '#FF8F87'    # Soft Coral Red
+  NEUTRAL_COLOR: '#F3F5F7'     # Very Light Gray
+
+Modern & Dynamic:
+  PRIMARY_COLORS:
+    - '#5DA2FF'    # Bright Sky Blue
+    - '#FF7F8E'    # Light Coral Pink
+  SUPPORTING_COLORS:
+    - '#5DD7B8'    # Soft Green Teal
+    - '#84DFFF'    # Light Blue
+    - '#8091FF'    # Light Purple-Blue
+  POSITIVE_COLOR: '#5DE3A7'    # Soft Mint Green
+  NEGATIVE_COLOR: '#FF9992'    # Soft Pinkish Red
+  NEUTRAL_COLOR: '#F5F7F9'     # Clean Light Background
